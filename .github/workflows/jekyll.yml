@@ -37,6 +37,9 @@ jobs:
         with:
           source: frontend
           destination: build
+      - name: Copy photos
+        run: |
+          sudo cp -r ./photos ./build/images
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
