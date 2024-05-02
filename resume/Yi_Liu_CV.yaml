@@ -68,7 +68,7 @@ cv:
         highlights:
           -  Implemented riscv32 full-system emulator based on NJU-ProjectN, Including hardware emulation, OS emulation, software compatibility and debugging analysis.
           - The outcome is running Chinese Paladin on the emulator.
-          - 'Github Link [https://github.com/cijinsama/Personal-Assignment-Project-NJU-EMUlator](https://github.com/cijinsama/Personal-Assignment-Project-NJU-EMUlator)'
+          - 'Demo Link [https://yi-liu.top/demos/emulator/](https://yi-liu.top/demos/emulator/)'
       - name: Transformer Abnormal Discharge Mode Detection with Sensor Array
         start_date: 2021-06
         end_date: 2022-05
