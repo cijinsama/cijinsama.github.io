@@ -33,10 +33,11 @@ cv:
         position: Artificial Intelligence Engineer, Intern
         location: Shanghai, China
         start_date: 2024-02
-        end_date: 2024-05
+        end_date: 2024-06
         highlights:
-          - Designed and implemented an algorithm to predict emotional words and speech from audio and align them to the audio in time axis.
-          - Implement some generative models for speech enhancement.
+          - Designed and implemented machine learning algorithms to predict emotional words and speech from audio and align them to the audio.
+          - Implement generative models for speech enhancement.
+          - Migrate algorithms to mobile platform.
     #publications:
       #- title: Magneto-Thermal Thin Shell Approximation for 3D Finite Element Analysis
           #of No-Insulation Coils
@@ -56,7 +57,6 @@ cv:
           - Improved a generative adversarial networks to achieve packet loss concealment as baseline.
           - Modified a attention-based network into a causal model to meet the latency and time complexity requirements.
           - Participated in the 2024 ICASSP Audio Deep Packet Loss Concealment Challenge, attaining an 8th place.
-          - 'Demo Link []()'
       - name: Whisper to Normal Speech Style Conversion
         start_date: 2023-06
         end_date: 2023-07
@@ -94,7 +94,7 @@ cv:
       - label: Tools
         details: Git, Latex, Makefile, Docker.
       - label: Algorithms
-        details: time-frequence analysis, sound source localization, numerical method, machine learning, data mining, static program analysis, computer graphics, basic data structure and algorithms.
+        details: machine learning, data mining, deep learning, speech enhancement, speech recognition, voice conversion, time-frequence analysis, sound source localization, numerical method, static program analysis, computer graphics, basic data structure and algorithms.
       - label: Platforms
         details: Unix/Linux, Windows
 design:
