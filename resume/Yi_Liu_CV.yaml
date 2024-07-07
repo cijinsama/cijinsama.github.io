@@ -37,7 +37,7 @@ cv:
         highlights:
           - Designed and implemented machine learning algorithms to predict emotional words and speech from audio and align them to the audio.
           - Implement generative models for speech enhancement.
-          - Migrate algorithms to mobile platform.
+          - Migrate algorithms to the mobile platform and reduce memory consumption.
     #publications:
       #- title: Magneto-Thermal Thin Shell Approximation for 3D Finite Element Analysis
           #of No-Insulation Coils
@@ -54,8 +54,7 @@ cv:
         start_date: 2022-06
         end_date: 2023-12
         highlights:
-          - Improved a generative adversarial networks to achieve packet loss concealment as baseline.
-          - Modified a attention-based network into a causal model to meet the latency and time complexity requirements.
+          - Improved generative adversarial networks and attention-based networks into causal models to meet the latency and time complexity requirements.
           - Participated in the 2024 ICASSP Audio Deep Packet Loss Concealment Challenge, attaining an 8th place.
       - name: Whisper to Normal Speech Style Conversion
         start_date: 2023-06
@@ -73,9 +72,8 @@ cv:
         start_date: 2021-06
         end_date: 2022-05
         highlights:
-          -  Designed and implemented a sound source localization algorithms based on Beamforming for sensor array with CUDA. Then tested it on real data from acoustic camera.
-          - Applied dimensionality reduction algorithms and clustering algorithms. Got possible discharge modes from real unlabeled transformer discharging audio data.
-          - Trained deep learning models as classifiers for transformer abnormal discharge.
+          -  Implemented sound source localization algorithms based on Beamforming for sensor array with CUDA. Test it on real data from acoustic camera.
+          #-  Implemented dimension reduction, clustering algorithms and deep learning models for discharge modes detection.
       - name: Deployed YOLOv3 on Horizon X3 Development Board
         date: 2022-06
         highlights:
@@ -90,11 +88,11 @@ cv:
       - label: Languages
         details: Skilled in Python, C, C++, capable in Unix shell scripts, CUDA, Java, Matlab, Mathematica, MySQL.
       - label: Frameworks
-        details: Skilled in Pytorch, Tensorflow, some experience with MPI parallel processing library, ISPC library, Eigen.
+        details: Skilled in Pytorch, Tensorflow, XGBoost, scikit-learn, some experience with MPI parallel processing library, ISPC library, Eigen.
       - label: Tools
-        details: Git, Latex, Makefile, Docker.
+        details: Git, Makefile, CMake, Docker, Latex, Parrot.
       - label: Algorithms
-        details: machine learning, data mining, deep learning, speech enhancement, speech recognition, voice conversion, time-frequence analysis, sound source localization, numerical method, static program analysis, computer graphics, basic data structure and algorithms.
+        details: machine learning, data mining, deep learning, speech and audio related algorithms, numerical method, static program analysis, computer graphics, data structure and algorithms.
       - label: Platforms
         details: Unix/Linux, Windows
 design:

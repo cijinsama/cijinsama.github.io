@@ -1,3 +1,5 @@
 run:
 	jekyll serve -s frontend -d build -l -H localhost
-.PHONY: run
+resume:
+	rendercv render ./resume/eng_Yi_Liu_CV.yaml
+.PHONY: run resume
