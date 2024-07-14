@@ -67,6 +67,8 @@ cv:
         end_date: 2023-07
         highlights:
           - Testsed open-source variational autoencoder with pre-trained vocoder(WaveGAN) to convert whisper audio to speech audio.
+          - Trained custom VITS model for style conversion from whisper to normal speech.
+          - 'Demo Link [https://yi-liu.top/demos/whisper-to-speech-voice-conversion/](https://yi-liu.top/demos/whisper-to-speech-voice-conversion/)'
       - name: Riscv32 full-system emulator
         start_date: 2022-08
         end_date: 2023-01
