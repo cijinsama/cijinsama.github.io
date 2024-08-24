@@ -28,11 +28,11 @@ cv:
         position: Artificial Intelligence Engineer, Intern
         location: Shanghai, China
         start_date: 2024-02
-        end_date: 2024-06
+        end_date: 2024-08
         highlights:
           - Designed and implemented machine learning algorithms to predict emotional words and speech from audio and align them to the audio.
           - Implement generative models for speech enhancement.
-          - Migrate algorithms to the mobile platform and reduce memory consumption.
+          - Migrate algorithms to the mobile platform(Android and IOS) and reduce memory consumption.
     #publications:
       #- title: Magneto-Thermal Thin Shell Approximation for 3D Finite Element Analysis
           #of No-Insulation Coils
@@ -50,7 +50,7 @@ cv:
       - label: Frameworks
         details: Skilled in Pytorch, Tensorflow, XGBoost, scikit-learn, some experience with MPI parallel processing library, ISPC library, Eigen.
       - label: Tools
-        details: Git, Makefile, CMake, Docker, Latex, Parrot.
+        details: Git, Makefile, CMake, Docker, Latex, Parrot, FFmpeg, Azure.
       - label: Algorithms
         details: machine learning, data mining, deep learning, speech and audio related algorithms, numerical method, static program analysis, computer graphics, data structure and algorithms.
       - label: Platforms
@@ -74,7 +74,6 @@ cv:
         end_date: 2023-01
         highlights:
           -  Implemented riscv32 full-system emulator based on NJU-ProjectN, Including hardware emulation, OS emulation, software compatibility and debugging analysis.
-          - The outcome is running Chinese Paladin on the emulator.
           - 'Demo Link [https://yi-liu.top/demos/emulator/](https://yi-liu.top/demos/emulator/)'
       - name: Transformer Abnormal Discharge Mode Detection with Sensor Array
         start_date: 2021-06

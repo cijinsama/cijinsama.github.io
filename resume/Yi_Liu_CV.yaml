@@ -92,7 +92,7 @@ cv:
       - label: Frameworks
         details: Skilled in Pytorch, Tensorflow, XGBoost, scikit-learn, some experience with MPI parallel processing library, ISPC library, Eigen.
       - label: Tools
-        details: Git, Makefile, CMake, Docker, Latex, Parrot.
+        details: Git, Makefile, CMake, Docker, Latex, Parrot, FFmpeg, Azure.
       - label: Algorithms
         details: machine learning, data mining, deep learning, speech and audio related algorithms, numerical method, static program analysis, computer graphics, data structure and algorithms.
       - label: Platforms
