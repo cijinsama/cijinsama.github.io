@@ -56,12 +56,12 @@ cv:
       - label: Platforms
         details: Unix/Linux, Windows
     projects:
-      - name: Online Automatic Chord Recognition with Sheet Generation Website
+      - name: Automatic Chord Recognition and Sheet Generation Website Tool
         start_date: 2024-08
         end_date: 2024-08
         highlights:
-          - Build pipeline for automatic chord recognition and sheet generation.
-          - Deploy it on AZure with visualization player website.
+          - Developed a pipeline for automatic chord recognition and sheet generation.
+          - Deployed the solution on Azure, including a visualization player website.
           - 'Tool Link [https://yi-liu.top/tools/](https://yi-liu.top/tools/)'
       - name: Audio Packet Loss Concealment
         start_date: 2022-06
