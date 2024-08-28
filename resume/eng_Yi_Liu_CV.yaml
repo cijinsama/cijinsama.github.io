@@ -82,16 +82,6 @@ cv:
         highlights:
           -  Implemented riscv32 full-system emulator based on NJU-ProjectN, Including hardware emulation, OS emulation, software compatibility and debugging analysis.
           - 'Demo Link [https://yi-liu.top/demos/emulator/](https://yi-liu.top/demos/emulator/)'
-      - name: Transformer Abnormal Discharge Mode Detection with Sensor Array
-        start_date: 2021-06
-        end_date: 2022-05
-        highlights:
-          -  Implemented sound source localization algorithms based on Beamforming for sensor array with CUDA. Test it on real data from acoustic camera.
-          #-  Implemented dimension reduction, clustering algorithms and deep learning models for discharge modes detection.
-      - name: Deployed YOLOv3 on Horizon X3 Development Board
-        date: 2022-06
-        highlights:
-          - Including software and hardware environment preparation, data collection, retrain YOLOv3, quantization and compression, deploy.
     #additional_experience_and_awards:
       #- label: Instructor (2003 - 2005)
         #details: Taught two full-credit Computer Science courses.
