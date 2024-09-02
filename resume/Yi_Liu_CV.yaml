@@ -27,7 +27,7 @@ cv:
         end_date: 2024-06
         highlights:
           - 'GPA: 4.42/5.0'
-          - '**Coursework:** Covers from Computer Science, Artificial Intelligence to Audio Signal Processing.'
+          - 'Coursework covers from Computer Science, Artificial Intelligence to Audio Signal Processing.'
     experience:
       - company: Papergames
         position: Artificial Intelligence Engineer, Intern
@@ -86,12 +86,6 @@ cv:
         date: 2022-06
         highlights:
           - Including software and hardware environment preparation, data collection, retrain YOLOv3, quantization and compression, deploy.
-    #additional_experience_and_awards:
-      #- label: Instructor (2003 - 2005)
-        #details: Taught two full-credit Computer Science courses.
-      #- label: Third Prize, Senior Design Projects
-        #details: Awarded 3rd prize for a synchronized calendar project out of 100
-          #projects.
     technologies:
       - label: Languages
         details: Skilled in Python, C, C++, capable in Unix shell scripts, CUDA, Java, Matlab, Mathematica, MySQL.
@@ -103,6 +97,23 @@ cv:
         details: machine learning, data mining, deep learning, speech and audio related algorithms, numerical method, static program analysis, computer graphics, data structure and algorithms.
       - label: Platforms
         details: Unix/Linux, Windows
+    awards:
+      - name: China Undergraduate Physics Tournament East National Division Top Award, China
+        date: 2022-06
+        highlights:
+          - Group tournament, participated as teamleader,top 3 among participants
+      - name: Interdisciplinary Contest in Modeling Meritorious Winner Award
+        date: 2022-05
+        highlights:
+          - Group tournament, top 8% among participants
+      - name: The People’s Scholarship, Nanjing University
+        date: 2021-12
+      - name: 25th Forum of Sciences and Arts of Nanjing University Second Grade Award
+        date: 2021-09
+      - name: China Undergraduate Physics Tournament National Division First Award, China
+        date: 2021-06
+        highlights:
+          - Group tournament, participated as teamleader,top 10 among participants
 design:
   theme: moderncv
   font_size: 10pt

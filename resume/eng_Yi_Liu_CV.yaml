@@ -56,13 +56,6 @@ cv:
       - label: Platforms
         details: Unix/Linux, Windows
     projects:
-      - name: Automatic Chord Recognition and Sheet Generation Website Tool
-        start_date: 2024-08
-        end_date: 2024-08
-        highlights:
-          - Developed a pipeline for automatic chord recognition and sheet generation.
-          - Deployed the solution on Azure, including a visualization player website.
-          - 'Tool Link [https://yi-liu.top/tools/](https://yi-liu.top/tools/)'
       - name: Audio Packet Loss Concealment
         start_date: 2022-06
         end_date: 2023-12
@@ -73,15 +66,25 @@ cv:
         start_date: 2023-06
         end_date: 2023-07
         highlights:
-          - Testsed open-source variational autoencoder with pre-trained vocoder(WaveGAN) to convert whisper audio to speech audio.
-          - Trained custom VITS model for style conversion from whisper to normal speech.
+          - Testsed open-source variational autoencoder with pre-trained vocoder(WaveGAN) to convert whisper audio to speech audio. Trained custom VITS model for style conversion from whisper to normal speech.
           - 'Demo Link [https://yi-liu.top/demos/whisper-to-speech-voice-conversion/](https://yi-liu.top/demos/whisper-to-speech-voice-conversion/)'
       - name: Riscv32 full-system emulator
         start_date: 2022-08
         end_date: 2023-01
         highlights:
           -  Implemented riscv32 full-system emulator based on NJU-ProjectN, Including hardware emulation, OS emulation, software compatibility and debugging analysis.
+          - The outcome is running Chinese Paladin on the emulator.
           - 'Demo Link [https://yi-liu.top/demos/emulator/](https://yi-liu.top/demos/emulator/)'
+      - name: Transformer Abnormal Discharge Mode Detection with Sensor Array
+        start_date: 2021-06
+        end_date: 2022-05
+        highlights:
+          -  Implemented sound source localization algorithms based on Beamforming for Ultrasonic sensor array with CUDA. Test it on real data from acoustic camera.
+          #-  Implemented dimension reduction, clustering algorithms and deep learning models for discharge modes detection.
+      - name: Deployed YOLOv3 on Horizon X3 Development Board
+        date: 2022-06
+        highlights:
+          - Including software and hardware environment preparation, data collection, retrain YOLOv3, quantization and compression, deploy.
     #additional_experience_and_awards:
       #- label: Instructor (2003 - 2005)
         #details: Taught two full-credit Computer Science courses.
