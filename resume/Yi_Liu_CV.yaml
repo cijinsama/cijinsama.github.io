@@ -29,6 +29,11 @@ cv:
           - 'GPA: 4.42/5.0'
           - 'Coursework covers from Computer Science, Artificial Intelligence to Audio Signal Processing.'
     experience:
+      - company: La Jolla Institute for Immunology
+        position: Student Researcher
+        location: San Diego, CA, US
+        start_date: 2024-09
+        #end_date: now
       - company: Papergames
         position: Artificial Intelligence Engineer, Intern
         location: Shanghai, China
