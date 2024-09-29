@@ -7,8 +7,8 @@ cv:
   social_networks:
     - network: LinkedIn
       username: yi-liu-374359264
-    - network: GitHub
-      username: cijinsama
+    #- network: GitHub
+      #username: cijinsama
   sections:
     education:
       - institution: University of California San Diego
@@ -78,7 +78,6 @@ cv:
         end_date: 2023-01
         highlights:
           -  Implemented riscv32 full-system emulator based on NJU-ProjectN, Including hardware emulation, OS emulation, software compatibility and debugging analysis.
-          - The outcome is running Chinese Paladin on the emulator.
           - 'Demo Link [https://yi-liu.top/demos/emulator/](https://yi-liu.top/demos/emulator/)'
       - name: Transformer Abnormal Discharge Mode Detection with Microphone Array
         start_date: 2021-06
