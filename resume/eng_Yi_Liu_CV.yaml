@@ -36,7 +36,7 @@ cv:
         end_date: 2024-08
         highlights:
           - Designed and implemented machine learning algorithms to predict emotional words and speech from audio and align them to the audio.
-          - Implement generative models for speech enhancement.
+          - Implement diffusion models for speech enhancement.
           - Migrate algorithms to the mobile platform(Android and IOS) and reduce memory consumption.
     #publications:
       #- title: Magneto-Thermal Thin Shell Approximation for 3D Finite Element Analysis
