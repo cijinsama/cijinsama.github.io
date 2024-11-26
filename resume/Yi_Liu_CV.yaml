@@ -11,7 +11,7 @@ cv:
       username: cijinsama
   sections:
     research interests:
-      - Deep Generative Model, Audio and Speech, Parallel Computing, Data Mining.
+      - Generative Model, Audio/Speech/Language, Data Mining, Parallel Computing.
     education:
       - institution: University of California San Diego
         area: Electrical and Computer Engineering
@@ -27,13 +27,15 @@ cv:
         end_date: 2024-06
         highlights:
           - 'GPA: 4.42/5.0'
-          - 'Coursework covers from Computer Science, Artificial Intelligence to Audio Signal Processing.'
+          - 'Coursework covers from Physics, Computer Science, Artificial Intelligence to Audio Signal Processing.'
     experience:
       - company: La Jolla Institute for Immunology
         position: Student Researcher
         location: San Diego, CA, US
         start_date: 2024-09
         #end_date: now
+        highlights:
+          - Personalized prediction of flu antibody responses based on vaccine history.
       - company: Papergames
         position: Artificial Intelligence Engineer, Intern
         location: Shanghai, China
@@ -41,7 +43,7 @@ cv:
         end_date: 2024-08
         highlights:
           - Designed and implemented machine learning algorithms to predict emotional words and speech from audio and align them to the audio.
-          - Implement generative models for speech enhancement.
+          - Implement diffusion models for speech enhancement.
           - Migrate algorithms to the mobile platform(Android and IOS) and reduce memory consumption.
     #publications:
       #- title: Magneto-Thermal Thin Shell Approximation for 3D Finite Element Analysis
@@ -55,13 +57,11 @@ cv:
         #doi: 10.1109/TASC.2023.3340648
         #date: 2004-01
     projects:
-      - name: Automatic Chord Recognition and Sheet Generation Website Tool
-        start_date: 2024-08
-        end_date: 2024-08
+      - name: Large Language Model-Based Game Agent
+        start_date: 2024-11
+        #end_date: 2023-12
         highlights:
-          - Developed a pipeline for automatic chord recognition and sheet generation.
-          - Deployed the solution on Azure, including a visualization player website.
-          - 'Tool Link [https://yi-liu.top/tools/](https://yi-liu.top/tools/)'
+          - Finetune Llama3 8B model to play The Snake game.
       - name: Audio Packet Loss Concealment
         start_date: 2022-06
         end_date: 2023-12
@@ -72,8 +72,7 @@ cv:
         start_date: 2023-06
         end_date: 2023-07
         highlights:
-          - Testsed open-source variational autoencoder with pre-trained vocoder(WaveGAN) to convert whisper audio to speech audio.
-          - Trained custom VITS model for style conversion from whisper to normal speech.
+          - Testsed VAE model with pre-trained vocoder(WaveGAN) to convert whisper audio to speech audio. Trained custom generative audio model(VITS) for style conversion from whisper to normal speech.
           - 'Demo Link [https://yi-liu.top/demos/whisper-to-speech-voice-conversion/](https://yi-liu.top/demos/whisper-to-speech-voice-conversion/)'
       - name: Riscv32 full-system emulator
         start_date: 2022-08
@@ -86,7 +85,7 @@ cv:
         end_date: 2022-05
         highlights:
           -  Implemented sound source localization algorithms based on Beamforming for sensor array with CUDA. Test it on real data from acoustic camera.
-          #-  Implemented dimension reduction, clustering algorithms and deep learning models for discharge modes detection.
+          -  Implemented dimension reduction, clustering algorithms and classify models for discharge modes detection.
       - name: Deployed YOLOv3 on Horizon X3 Development Board
         date: 2022-06
         highlights:
@@ -95,11 +94,11 @@ cv:
       - label: Languages
         details: Skilled in Python, C, C++, capable in Unix shell scripts, CUDA, Java, Matlab, Mathematica, MySQL.
       - label: Frameworks
-        details: Skilled in Pytorch, Tensorflow, XGBoost, scikit-learn, some experience with MPI parallel processing library, ISPC library, Eigen.
+        details: Skilled in Pytorch, Tensorflow, XGBoost, scikit-learn, some experience with MPI parallel processing library, ISPC library, Eigen, ONNX.
       - label: Tools
         details: Git, Makefile, CMake, Docker, Latex, Parrot, FFmpeg, Azure.
       - label: Algorithms
-        details: machine learning, data mining, deep learning, speech and audio related algorithms, numerical method, static program analysis, computer graphics, data structure and algorithms.
+        details: machine learning, deep learning, speech/audio, NLP/LLM, Recommender Systems, DSP, numerical method, static program analysis, computer graphics, data structure and algorithms.
       - label: Platforms
         details: Unix/Linux, Windows
     awards:
