@@ -45,7 +45,7 @@ jobs:
         with:
           python-version: '3.10'
       - run: pip install rendercv==1.8
-      - run: rendercv render ./resume/Yi_Liu_CV.yaml
+      - run: rendercv render ./resume/industry_Yi_Liu_CV.yaml
       - name: Copy resume
         run: |
           sudo cp ./resume/rendercv_output/Yi_Liu_CV.pdf ./build/assets/resume.pdf
