@@ -1,0 +1,138 @@
+cv:
+  name: Yi Liu
+  #location: China
+  email: yil349@ucsd.edu
+  phone: tel:+1-858-405-5497
+  website: https://yi-liu.top
+  social_networks:
+    - network: LinkedIn
+      username: yi-liu-374359264
+    #- network: GitHub
+      #username: cijinsama
+  sections:
+    education:
+      - institution: University of California San Diego
+        area: Electrical and Computer Engineering
+        degree: MS
+        start_date: 2024-09
+        end_date: 2026-06
+        highlights:
+          - Machine Learning and Data Science track
+      - institution: Nanjing University
+        area: Acoustics
+        degree: BS
+        start_date: 2020-09
+        end_date: 2024-06
+    experience:
+      - company: La Jolla Institute for Immunology
+        position: Student Researcher
+        location: San Diego, CA, US
+        start_date: 2024-09
+        #end_date: now
+        highlights:
+          - Personalized prediction of flu antibody responses based on vaccine history.
+      - company: Infold Games
+        position: Artificial Intelligence Engineer, Intern
+        location: Shanghai, China
+        start_date: 2024-02
+        end_date: 2024-08
+        highlights:
+          - Designed and implemented machine learning algorithms to predict emotional words and speech from audio and align them to the audio.
+          - Implement diffusion models for speech enhancement.
+          - Migrate algorithms to the mobile platform(Android and IOS) and reduce memory consumption.
+    #publications:
+      #- title: Magneto-Thermal Thin Shell Approximation for 3D Finite Element Analysis
+          #of No-Insulation Coils
+        #authors:
+          #- Albert Smith
+          #- Yi Liu
+          #- Jane Derry
+          #- Harry Tom
+          #- Frodo Baggins
+        #doi: 10.1109/TASC.2023.3340648
+        #date: 2004-01
+    technologies:
+      - label: Languages
+        details: Skilled in Python, C, C++, capable in Unix shell scripts, CUDA, Java, Matlab, Mathematica, MySQL.
+      - label: Frameworks
+        details: Skilled in Pytorch, Tensorflow, XGBoost, scikit-learn, some experience with MPI parallel processing library, ISPC library, Eigen, ONNX.
+      - label: Tools
+        details: Git, Makefile, CMake, Docker, Latex, Parrot, FFmpeg, Azure.
+      - label: Algorithms
+        details: machine learning, speech/audio, NLP/LLM, Recommender Systems, DSP, numerical method, static program analysis, computer graphics, data structure and algorithms.
+      - label: Platforms
+        details: Unix/Linux, Windows
+    projects:
+      #- name: Large Language Model-Based Game Agent
+        #start_date: 2024-11
+        #end_date: 2023-12
+        #highlights:
+          #- Finetune Llama3 8B model to play The Snake game.
+      - name: Audio Packet Loss Concealment
+        start_date: 2022-06
+        end_date: 2023-12
+        highlights:
+          - Improved generative adversarial networks and attention-based networks into causal models to meet the latency and time complexity requirements.
+          - Participated in the 2024 ICASSP Audio Deep Packet Loss Concealment Challenge, attaining an 8th place.
+      - name: Whisper to Normal Speech Style Conversion
+        start_date: 2023-06
+        end_date: 2023-07
+        highlights:
+          - Testsed VAE model with pre-trained vocoder(WaveGAN) to convert whisper audio to speech audio. Trained custom generative audio model(VITS) for style conversion from whisper to normal speech.
+          - 'Demo Link [https://yi-liu.top/demos/whisper-to-speech-voice-conversion/](https://yi-liu.top/demos/whisper-to-speech-voice-conversion/)'
+      - name: Riscv32 full-system emulator
+        start_date: 2022-08
+        end_date: 2023-01
+        highlights:
+          -  Implemented riscv32 full-system emulator based on NJU-ProjectN, Including hardware emulation, OS emulation, software compatibility and debugging analysis.
+          - 'Demo Link [https://yi-liu.top/demos/emulator/](https://yi-liu.top/demos/emulator/)'
+      - name: Transformer Abnormal Discharge Mode Detection with Microphone Array
+        start_date: 2021-06
+        end_date: 2022-05
+        highlights:
+          -  Implemented sound source localization algorithms based on Beamforming for Ultrasonic microphone array with CUDA. Test it on real data from acoustic camera.
+          #-  Implemented dimension reduction, clustering algorithms and deep learning models for discharge modes detection.
+      - name: Deployed YOLOv3 on Horizon X3 Development Board
+        date: 2022-06
+        highlights:
+          - Including software and hardware environment preparation, data collection, retrain YOLOv3, quantization and compression, deploy.
+    #additional_experience_and_awards:
+      #- label: Instructor (2003 - 2005)
+        #details: Taught two full-credit Computer Science courses.
+      #- label: Third Prize, Senior Design Projects
+        #details: Awarded 3rd prize for a synchronized calendar project out of 100
+          #projects.
+design:
+  theme: engineeringresumes
+  font_size: 10pt
+  page_size: letterpaper
+  color: '#004f90'
+  disable_external_link_icons: false
+  disable_page_numbering: false
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: true
+  last_updated_date_style: Last updated in TODAY
+  header_font_size: 30 pt
+  text_alignment: justified
+  margins:
+    page:
+      top: 2 cm
+      bottom: 2 cm
+      left: 2 cm
+      right: 2 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 4.5 cm
+      education_degree_width: 1 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0.3 cm
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm
