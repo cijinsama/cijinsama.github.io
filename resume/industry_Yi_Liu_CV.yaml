@@ -28,7 +28,7 @@ cv:
         position: Student Researcher
         location: San Diego, CA, US
         start_date: 2024-09
-        #end_date: now
+        end_date: 2024-12
         highlights:
           - Personalized prediction of flu antibody responses based on vaccine history.
       - company: Infold Games
@@ -55,19 +55,29 @@ cv:
       - label: Languages
         details: Skilled in Python, C, C++, capable in Unix shell scripts, CUDA, Java, Matlab, Mathematica, MySQL.
       - label: Frameworks
-        details: Skilled in Pytorch, Tensorflow, XGBoost, scikit-learn, some experience with MPI parallel processing library, ISPC library, Eigen, ONNX.
+        details: Skilled in Pytorch, Tensorflow, XGBoost, some experience with MPI, ISPC, Eigen, ONNX.
       - label: Tools
         details: Git, Makefile, CMake, Docker, Latex, Parrot, FFmpeg, Azure.
       - label: Algorithms
-        details: machine learning, speech/audio, NLP/LLM, Recommender Systems, DSP, numerical method, static program analysis, computer graphics, data structure and algorithms.
-      - label: Platforms
-        details: Unix/Linux, Windows
+        details: machine learning, speech/audio, NLP/LLM, Recommender Systems, DSP, numerical method.
+      #- label: Platforms
+        #details: Unix/Linux, Windows
     projects:
       #- name: Large Language Model-Based Game Agent
         #start_date: 2024-11
         #end_date: 2023-12
         #highlights:
           #- Finetune Llama3 8B model to play The Snake game.
+      - name: Parallel optimization based on picard iteration for biased SGD
+        start_date: 2024-12
+        end_date: 2025-03
+        highlights:
+          - Implemented parallel optimization algorithm with support for PyTorch integration.
+          - Conduct experiments on binary nerual networks.
+      - name: Controllable symbolic music emotion transfering
+        start_date: 2024-11
+        highlights:
+          - Devise training methods for few-shots symbolic music emotion transfering by language models.
       - name: Audio Packet Loss Concealment
         start_date: 2022-06
         end_date: 2023-12
@@ -92,10 +102,10 @@ cv:
         highlights:
           -  Implemented sound source localization algorithms based on Beamforming for Ultrasonic microphone array with CUDA. Test it on real data from acoustic camera.
           #-  Implemented dimension reduction, clustering algorithms and deep learning models for discharge modes detection.
-      - name: Deployed YOLOv3 on Horizon X3 Development Board
-        date: 2022-06
-        highlights:
-          - Including software and hardware environment preparation, data collection, retrain YOLOv3, quantization and compression, deploy.
+      #- name: Deployed YOLOv3 on Horizon X3 Development Board
+        #date: 2022-06
+        #highlights:
+          #- Including software and hardware environment preparation, data collection, retrain YOLOv3, quantization and compression, deploy.
     #additional_experience_and_awards:
       #- label: Instructor (2003 - 2005)
         #details: Taught two full-credit Computer Science courses.

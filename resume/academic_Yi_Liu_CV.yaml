@@ -33,7 +33,7 @@ cv:
         position: Student Researcher
         location: San Diego, CA, US
         start_date: 2024-09
-        end_date: 2024-11
+        end_date: 2024-12
         highlights:
           - Personalized prediction of flu antibody responses based on vaccine history.
       - company: Papergames/Infold Games
