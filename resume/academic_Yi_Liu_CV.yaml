@@ -11,7 +11,7 @@ cv:
       username: cijinsama
   sections:
     research interests:
-      - Generative Model, Audio/Speech/Language, Data Mining, Parallel Computing.
+      - Generative Model, Audio/Language/Music, Parallel Computing.
     education:
       - institution: University of California San Diego
         area: Electrical and Computer Engineering
@@ -29,6 +29,15 @@ cv:
           - 'GPA: 4.42/5.0'
           - 'Coursework covers from Physics, Computer Science, Artificial Intelligence to Audio Signal Processing.'
     experience:
+      - company: Bose Corporation
+        position: Machine Learning Engineer, Intern
+        location: Framingham, MA, US
+        start_date: 2025-06
+        end_date: 2025-08
+        highlights:
+          - Design model for real-time open vocabulary keyword spotting on computation-limited edge device.
+          - Achieve SOTA performance on internal dataset.
+          - Work submitted to ICASSP 2026.
       - company: La Jolla Institute for Immunology
         position: Student Researcher
         location: San Diego, CA, US
@@ -42,7 +51,7 @@ cv:
         start_date: 2024-02
         end_date: 2024-08
         highlights:
-          - Designed and implemented machine learning algorithms to predict emotional words and speech from audio and align them to the audio.
+          - Designed and implemented machine learning algorithms to predict emotional words and speech from audio and align to the audio.
           - Implement diffusion models for speech enhancement.
           - Migrate algorithms to the mobile platform(Android and IOS) and reduce memory consumption.
     #publications:
@@ -56,20 +65,30 @@ cv:
           #- Frodo Baggins
         #doi: 10.1109/TASC.2023.3340648
         #date: 2004-01
+    Academic Service:
+      - name: Reviewer, The 40th Annual AAAI Conference on Artificial Intelligence
+        date: 2025-08
     projects:
-      - name: Parallel optimization based on picard iteration for biased SGD
+      - name: Discrete Diffusion Model for Symbolic Music Generation
+        start_date: 2025-02
+        end_date: 2025-06
+        highlights:
+          -  The first one to apply continuous-time Markov chain directly on discrete music tokens for music generation
+          -  Proposed several method for 4 different application which can leverage the discrete diffusion model
+          -  Proved that discrete diffusion generates more variant samples over auto-regressive model on certain task.
+          -  Paper currently under review at AAAI-2026.
+      - name: Parallel Optimization Based on Picard Iteration for Biased SGD
         start_date: 2024-12
         end_date: 2025-03
         highlights:
           - Collaborated with Professor [Jun-Kun Wang](https://jimwang123.github.io)
           - Implemented parallel optimization algorithm with support for PyTorch integration.
           - Conduct experiments on binary nerual networks.
-          - Code will be released soon.
-      - name: Controllable symbolic music emotion transfering
-        start_date: 2024-11
-        highlights:
-          - Devise training methods for few-shots symbolic music emotion transfering by language models.
-          - Demo wil be released soon.
+      # - name: Controllable Symbolic Music Emotion Transfering
+      #   start_date: 2024-11
+      #   end_date: 2025-02
+      #   highlights:
+      #     - Devise training methods for few-shots symbolic music emotion transfering by language models.
       #- name: Large Language Model-Based Game Agent
         #start_date: 2024-11
         #end_date: 2024-11
@@ -93,12 +112,12 @@ cv:
         highlights:
           -  Implemented riscv32 full-system emulator based on NJU-ProjectN, Including hardware emulation, OS emulation, software compatibility and debugging analysis.
           - 'Demo Link [https://yi-liu.top/demos/emulator/](https://yi-liu.top/demos/emulator/)'
-      - name: Transformer Abnormal Discharge Mode Detection with Sensor Array
-        start_date: 2021-06
-        end_date: 2022-05
-        highlights:
-          -  Implemented sound source localization algorithms based on Beamforming for sensor array with CUDA. Test it on real data from acoustic camera.
-          -  Implemented dimension reduction, clustering algorithms and classify models for discharge modes detection.
+      # - name: Transformer Abnormal Discharge Mode Detection with Sensor Array
+      #   start_date: 2021-06
+      #   end_date: 2022-05
+      #   highlights:
+      #     -  Implemented sound source localization algorithms based on Beamforming for sensor array with CUDA. Test it on real data from acoustic camera.
+      #     -  Implemented dimension reduction, clustering algorithms and classify models for discharge modes detection.
     #technologies:
       #- label: Languages
         #details: Skilled in Python, C, C++, capable in Unix shell scripts, CUDA, Java, Matlab, Mathematica, MySQL.
