@@ -75,13 +75,14 @@ cv:
       - name: Reviewer, The 40th Annual AAAI Conference on Artificial Intelligence
         date: 2025-08
     projects:
-    #   - name: Mitigating Prefix Bias in Open-Vocabulary Keyword Spotting for Real-time Edge Device Application
-    #     start_date: 2025-06
-    #     # end_date: 2025-12
-    #     highlights:
-    #       - Introduced the Partial Overlap Benchmark and identified partial-overlap phrases as a key failure mode in OV-KWS.
-    #       - Developed DisentangleKWS, improving robustness against prefix bias without adding computational overhead or impacting standard performance.
-    #       - Paper currently under submitted to ICASSP-2026.
+      - name: Open-Vocabulary Keyword Spotting
+        start_date: 2025-06
+        # end_date: 2025-12
+        highlights:
+          # - Introduced the Partial Overlap Benchmark and identified partial-overlap phrases as a key failure mode in OV-KWS.
+          # - Developed DisentangleKWS, improving robustness against prefix bias without adding computational overhead or impacting standard performance.
+          # - Paper currently under submitted to ICASSP-2026.
+          - 'Demo Link [https://yi-liu.top/demos/music-discrete-diffusion-model/](https://yi-liu.top/demos/music-discrete-diffusion-model/)'
       - name: Discrete Diffusion Model for Symbolic Music Generation
         start_date: 2025-02
         end_date: 2025-06
@@ -90,7 +91,7 @@ cv:
           # -  Proposed several method for 4 different application which can leverage the discrete diffusion model
           # -  Proved that discrete diffusion generates more variant samples over auto-regressive model on certain task.
           # -  Paper currently under review at AAAI-2026.
-          - 'Demo Link [https://yi-liu.top/demos/whisper-to-speech-voice-conversion/](https://yi-liu.top/demos/whisper-to-speech-voice-conversion/)'
+          - 'Demo Link [https://yi-liu.top/demos/music-discrete-diffusion-model/](https://yi-liu.top/demos/music-discrete-diffusion-model/)'
       - name: Parallel Optimization Based on Picard Iteration for Biased SGD
         start_date: 2024-12
         end_date: 2025-03
