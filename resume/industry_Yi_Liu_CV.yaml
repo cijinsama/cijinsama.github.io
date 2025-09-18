@@ -65,13 +65,16 @@ cv:
         details: Skilled in Python, C, C++, capable in Unix shell scripts, CUDA, Java, Matlab, Mathematica.
       - label: Frameworks
         details: Skilled in Pytorch, Tensorflow, XGBoost, some experience with MPI, ISPC, Eigen, ONNX.
-      - label: Tools
-        details: Git, Makefile, CMake, Docker, Azure, GCP.
       - label: Algorithms
         details: machine learning, speech/audio, NLP/LLM, Recommender Systems, DSP, numerical method.
-      #- label: Platforms
-        #details: Unix/Linux, Windows
     projects:
+      - name: Mitigating Prefix Bias in Open-Vocabulary Keyword Spotting for Real-time Edge Device Application
+        start_date: 2025-06
+        # end_date: 2025-12
+        highlights:
+          - Introduced the Partial Overlap Benchmark and identified partial-overlap phrases as a key failure mode.
+          - Developed DisentangleKWS, improving robustness against prefix bias without adding computational overhead or impacting standard performance.
+          - Paper currently under submitted to ICASSP-2026.
       #- name: Large Language Model-Based Game Agent
         #start_date: 2024-11
         #end_date: 2023-12
@@ -81,16 +84,15 @@ cv:
         start_date: 2025-02
         end_date: 2025-06
         highlights:
-          -  The first one to apply continuous-time Markov chain directly on discrete music tokens for music generation
           -  Proposed several method for 4 different application which can leverage the discrete diffusion model
           -  Proved that discrete diffusion generates more variant samples over auto-regressive model on certain task.
-          # -  Paper currently under review.
-      - name: Parallel Optimization Based on Picard Iteration for Biased SGD
-        start_date: 2024-12
-        end_date: 2025-03
-        highlights:
-          - Implemented parallel optimization algorithm with support for PyTorch integration.
-          - Conduct experiments on binary nerual networks.
+          -  Paper currently under review at AAAI-2026.
+      # - name: Parallel Optimization Based on Picard Iteration for Biased SGD
+      #   start_date: 2024-12
+      #   end_date: 2025-03
+      #   highlights:
+      #     - Implemented parallel optimization algorithm with support for PyTorch integration.
+      #     - Conduct experiments on binary nerual networks.
       # - name: Controllable Symbolic Music Emotion Transfering
       #   start_date: 2024-11
       #   end_date: 2025-02
@@ -100,13 +102,13 @@ cv:
         start_date: 2022-06
         end_date: 2023-12
         highlights:
-          - Improved generative adversarial networks and attention-based networks into causal models to meet the latency and time complexity requirements.
+          - Improved GAN and attention-based networks into causal models to meet the latency and time complexity requirements for real-time deployment.
           - Participated in the 2024 ICASSP Audio Deep Packet Loss Concealment Challenge, attaining an 8th place.
       - name: Whisper to Normal Speech Style Conversion
         start_date: 2023-06
         end_date: 2023-07
         highlights:
-          - Testsed VAE model with pre-trained vocoder(WaveGAN) to convert whisper audio to speech audio. Trained custom generative audio model(VITS) for style conversion from whisper to normal speech.
+          - Trained custom generative audio model(VITS) for style conversion from whisper to normal speech.
           - 'Demo Link [https://yi-liu.top/demos/whisper-to-speech-voice-conversion/](https://yi-liu.top/demos/whisper-to-speech-voice-conversion/)'
       # - name: Riscv32 full-system emulator
       #   start_date: 2022-08
