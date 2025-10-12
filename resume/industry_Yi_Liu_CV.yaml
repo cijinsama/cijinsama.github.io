@@ -15,9 +15,9 @@ cv:
         area: Electrical and Computer Engineering
         degree: MS
         start_date: 2024-09
-        end_date: 2025-12
-        highlights:
-          - Machine Learning and Data Science track
+        end_date: 2026-06
+        # highlights:
+        #   - Machine Learning and Data Science track
       - institution: Nanjing University
         area: Acoustics
         degree: BS
@@ -30,8 +30,8 @@ cv:
         start_date: 2025-06
         # end_date: 2025-08
         highlights:
-          - Design model for real-time open vocabulary keyword spotting on computation-limited edge device.
-          - Achieve better performance than SOTA model SLICK.
+          - Design model for real-time open vocabulary keyword spotting on edge device. Achieve better performance than SOTA model [SLICK](https://arxiv.org/abs/2409.09067) with smaller parameter size.
+          - Identified limitations in existing evaluation dataset and developed a novel dataset using generative models to address coverage gaps and improve benchmarking robustness.
           # - Work submitted to ICASSP 2026.
       # - company: La Jolla Institute for Immunology
       #   position: Student Researcher
@@ -46,20 +46,28 @@ cv:
         start_date: 2024-02
         end_date: 2024-08
         highlights:
-          - Designed and implemented machine learning algorithms to predict emotional words and speech from audio and align to the audio.
+          - Designed machine learning algorithms to predict acoustic emotional words and alignment.
           # - Implement diffusion models for speech enhancement.
-          - Migrate algorithms to the mobile platform(Android and IOS) and reduce memory consumption.
-    #publications:
-      #- title: Magneto-Thermal Thin Shell Approximation for 3D Finite Element Analysis
-          #of No-Insulation Coils
-        #authors:
-          #- Albert Smith
-          #- Yi Liu
-          #- Jane Derry
-          #- Harry Tom
-          #- Frodo Baggins
-        #doi: 10.1109/TASC.2023.3340648
-        #date: 2004-01
+          # - Migrate algorithms to the mobile platform(Android and IOS) and reduce memory consumption.
+    publications:
+      - title: Towards Controllable Symbolic Music Diffusion Models (under review)
+        authors:
+          - '***Yi Liu***'
+          - Jingyue Huang
+          - Zachary Novack
+        doi:
+        url:
+        journal: The 40th Annual AAAI Conference on Artificial Intelligence
+        # date: 2025-07
+      - title: 'No Word Left Behind: Mitigating Prefix Bias in Open-Vocabulary Keyword Spotting (under review)'
+        authors:
+          - '***Yi Liu***'
+          - 'Chuan-Che (Jeff) Huang'
+          - Xiao Quan
+        doi:
+        url:
+        journal: 2026 IEEE International Conference on Acoustics, Speech, and Signal Processing
+        # date: 2025-09
     technologies:
       - label: Languages
         details: Skilled in Python, C, C++, capable in Unix shell scripts, CUDA, Java, Matlab, Mathematica.
@@ -68,31 +76,32 @@ cv:
       - label: Algorithms
         details: machine learning, speech/audio, NLP/LLM, Recommender Systems, DSP, numerical method.
     projects:
-      - name: Mitigating Prefix Bias in Open-Vocabulary Keyword Spotting for Real-time Edge Device Application
+      - name: Open-Vocabulary Keyword Spotting
         start_date: 2025-06
         # end_date: 2025-12
         highlights:
-          - Introduced the Partial Overlap Benchmark and identified partial-overlap phrases as a key failure mode.
-          - Developed DisentangleKWS, improving robustness against prefix bias without adding computational overhead or impacting standard performance.
-          - Paper currently under submitted to ICASSP-2026.
+          # - Introduced the Partial Overlap Benchmark and identified partial-overlap phrases as a key failure mode in OV-KWS.
+          # - Developed DisentangleKWS, improving robustness against prefix bias without adding computational overhead or impacting standard performance.
+          # - Paper currently under submitted to ICASSP-2026.
+          - 'Demo Link [https://yi-liu.top/demos/open-vocabulary-keywords-spotting/](https://yi-liu.top/demos/open-vocabulary-keywords-spotting/)'
       #- name: Large Language Model-Based Game Agent
         #start_date: 2024-11
         #end_date: 2023-12
         #highlights:
           #- Finetune Llama3 8B model to play The Snake game.
-      - name: Discrete Diffusion Model for Symbolic Music Generation
+      - name: Diffusion Language Model for Symbolic Music Generation
         start_date: 2025-02
         end_date: 2025-06
         highlights:
-          -  Proposed several method for 4 different application which can leverage the discrete diffusion model
-          -  Proved that discrete diffusion generates more variant samples over auto-regressive model on certain task.
-          -  Paper currently under review at AAAI-2026.
-      # - name: Parallel Optimization Based on Picard Iteration for Biased SGD
-      #   start_date: 2024-12
-      #   end_date: 2025-03
-      #   highlights:
-      #     - Implemented parallel optimization algorithm with support for PyTorch integration.
-      #     - Conduct experiments on binary nerual networks.
+          # -  The first one to apply continuous-time Markov chain directly on discrete music tokens for music generation
+          -  Proposed several methods for controllable music generation applications, leveraging the discrete diffusion model. Proved that discrete diffusion generates more variant samples over auto-regressive model.
+          # -  Paper currently under review at AAAI-2026.
+          - 'Demo Link [https://yi-liu.top/demos/music-discrete-diffusion-model/](https://yi-liu.top/demos/music-discrete-diffusion-model/)'
+      - name: Parallel Optimization Based on Picard Iteration for Biased SGD
+        start_date: 2024-12
+        end_date: 2025-03
+        highlights:
+          - Implemented parallel optimization algorithm with support for PyTorch integration. Conduct experiments on binary nerual networks.
       # - name: Controllable Symbolic Music Emotion Transfering
       #   start_date: 2024-11
       #   end_date: 2025-02
@@ -102,13 +111,13 @@ cv:
         start_date: 2022-06
         end_date: 2023-12
         highlights:
-          - Improved GAN and attention-based networks into causal models to meet the latency and time complexity requirements for real-time deployment.
-          - Participated in the 2024 ICASSP Audio Deep Packet Loss Concealment Challenge, attaining an 8th place.
+          - Incorporate adversarial training with causal attention-based networks for real-time edge device application.
+          - Participated in the 2024 ICASSP Audio Deep Packet Loss Concealment Challenge, ranked 8th.
       - name: Whisper to Normal Speech Style Conversion
         start_date: 2023-06
         end_date: 2023-07
         highlights:
-          - Trained custom generative audio model(VITS) for style conversion from whisper to normal speech.
+          # - Testsed VAE model with pre-trained vocoder(WaveGAN) to convert whisper audio to speech audio. Trained custom generative audio model(VITS) for style conversion from whisper to normal speech.
           - 'Demo Link [https://yi-liu.top/demos/whisper-to-speech-voice-conversion/](https://yi-liu.top/demos/whisper-to-speech-voice-conversion/)'
       # - name: Riscv32 full-system emulator
       #   start_date: 2022-08
@@ -137,35 +146,137 @@ cv:
         date: 2025-08
 design:
   theme: engineeringresumes
-  font_size: 10pt
-  page_size: letterpaper
-  color: '#004f90'
-  disable_external_link_icons: false
-  disable_page_numbering: false
-  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
-  disable_last_updated_date: true
-  last_updated_date_style: Last updated in TODAY
-  header_font_size: 30 pt
-  text_alignment: justified
-  margins:
-    page:
-      top: 2 cm
-      bottom: 2 cm
-      left: 2 cm
-      right: 2 cm
-    section_title:
-      top: 0.3 cm
-      bottom: 0.2 cm
-    entry_area:
-      left_and_right: 0.2 cm
-      vertical_between: 0.2 cm
-      date_and_location_width: 4.5 cm
-      education_degree_width: 1 cm
-    highlights_area:
-      top: 0.10 cm
-      left: 0.4 cm
-      vertical_between_bullet_points: 0.10 cm
-    header:
-      vertical_between_name_and_connections: 0.3 cm
-      bottom: 0.3 cm
-      horizontal_between_connections: 0.5 cm
+  page:
+    size: us-letter
+    top_margin: 1cm
+    bottom_margin: 1cm
+    left_margin: 1cm
+    right_margin: 1cm
+    show_page_numbering: false
+    show_last_updated_date: true
+  colors:
+    text: rgb(0, 0, 0)
+    name: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 0, 0)
+    last_updated_date_and_page_numbering: rgb(128, 128, 128)
+  text:
+    font_family: XCharter
+    font_size: 10pt
+    leading: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+  links:
+    underline: true
+    use_external_link_icon: false
+  header:
+    name_font_family: XCharter
+    name_font_size: 25pt
+    name_bold: false
+    photo_width: 3.5cm
+    vertical_space_between_name_and_connections: 0.7cm
+    vertical_space_between_connections_and_first_section: 0.7cm
+    horizontal_space_between_connections: 0.5cm
+    connections_font_family: XCharter
+    separator_between_connections: '|'
+    use_icons_for_connections: false
+    alignment: center
+  section_titles:
+    type: with-full-line
+    font_family: XCharter
+    font_size: 1.2em
+    bold: true
+    small_caps: false
+    line_thickness: 0.5pt
+    vertical_space_above: 0.55cm
+    vertical_space_below: 0.3cm
+  entries:
+    date_and_location_width: 4.15cm
+    left_and_right_margin: 0cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 0.4cm
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: true
+    short_second_row: false
+    show_time_spans_in: []
+  highlights:
+    bullet: •
+    top_margin: 0.25cm
+    left_margin: 0cm
+    vertical_space_between_highlights: 0.19cm
+    horizontal_space_between_bullet_and_highlight: 0.3em
+    summary_left_margin: 0cm
+  entry_types:
+    one_line_entry:
+      template: '**LABEL:** DETAILS'
+    education_entry:
+      main_column_first_row_template: '**INSTITUTION**, DEGREE in AREA -- LOCATION'
+      degree_column_template:
+      degree_column_width: 1cm
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    normal_entry:
+      main_column_first_row_template: '**NAME** -- **LOCATION**'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    experience_entry:
+      main_column_first_row_template: '**POSITION**, COMPANY -- LOCATION'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: DATE
+    publication_entry:
+      main_column_first_row_template: '**TITLE**'
+      main_column_second_row_template: |-
+        AUTHORS
+        URL (JOURNAL)
+      main_column_second_row_without_journal_template: |-
+        AUTHORS
+        URL
+      main_column_second_row_without_url_template: |-
+        AUTHORS
+        JOURNAL
+      date_and_location_column_template: DATE
+locale:
+  language: en
+  phone_number_format: national
+  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  last_updated_date_template: Last updated in TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: –
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - June
+    - July
+    - Aug
+    - Sept
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December

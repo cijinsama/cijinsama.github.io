@@ -34,9 +34,9 @@ cv:
         location: Framingham, MA, US
         start_date: 2025-06
         # end_date: 2025-08
-        # highlights:
-        #   - Design model for real-time open vocabulary keyword spotting on computation-limited edge device.
-        #   - Achieve better performance than SOTA model SLICK.
+        highlights:
+          - Design model for real-time open vocabulary keyword spotting on computation-limited edge device.
+          # - Achieve better performance than SOTA model SLICK.
       - company: La Jolla Institute for Immunology
         position: Student Researcher
         location: San Diego, CA, US
@@ -49,8 +49,8 @@ cv:
         location: Shanghai, China
         start_date: 2024-02
         end_date: 2024-08
-        # highlights:
-        #   - Designed and implemented machine learning algorithms to predict emotional words and speech from audio and align to the audio.
+        highlights:
+          - Design machine learning algorithms to predict emotional acoustic event and speech from audio.
         #   - Implement diffusion models for speech enhancement.
     publications:
       - title: Towards Controllable Symbolic Music Diffusion Models (under review)
@@ -82,7 +82,7 @@ cv:
           # - Introduced the Partial Overlap Benchmark and identified partial-overlap phrases as a key failure mode in OV-KWS.
           # - Developed DisentangleKWS, improving robustness against prefix bias without adding computational overhead or impacting standard performance.
           # - Paper currently under submitted to ICASSP-2026.
-          - 'Demo Link [https://yi-liu.top/demos/music-discrete-diffusion-model/](https://yi-liu.top/demos/music-discrete-diffusion-model/)'
+          - 'Demo Link [https://yi-liu.top/demos/open-vocabulary-keywords-spotting/](https://yi-liu.top/demos/open-vocabulary-keywords-spotting/)'
       - name: Discrete Diffusion Model for Symbolic Music Generation
         start_date: 2025-02
         end_date: 2025-06
@@ -164,10 +164,10 @@ design:
   theme: engineeringresumes
   page:
     size: us-letter
-    top_margin: 2cm
-    bottom_margin: 2cm
-    left_margin: 2cm
-    right_margin: 2cm
+    top_margin: 1cm
+    bottom_margin: 1cm
+    left_margin: 1cm
+    right_margin: 1cm
     show_page_numbering: false
     show_last_updated_date: true
   colors:
