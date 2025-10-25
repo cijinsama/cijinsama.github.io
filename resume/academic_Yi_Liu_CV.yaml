@@ -29,6 +29,13 @@ cv:
           - 'GPA: 4.42/5.0'
           # - 'Coursework covers from Physics, Computer Science, Artificial Intelligence to Audio Signal Processing.'
     experience:
+      - company: University of California San Diego
+        position: Research Assistant
+        location: San Diego, CA, US
+        start_date: 2025-10
+        # end_date: 2025-08
+        highlights:
+          - Realtime edge device image editing with Diffusion model. Collaborated with Qualcomm.
       - company: Bose Corporation
         position: Machine Learning Engineer, Intern
         location: Framingham, MA, US
@@ -114,12 +121,12 @@ cv:
         highlights:
           - Incorporate adversarial training with causal attention-based networks for real-time edge device application.
           - Participated in the 2024 ICASSP Audio Deep Packet Loss Concealment Challenge, ranked 8th.
-      - name: Whisper to Normal Speech Style Conversion
-        start_date: 2023-06
-        end_date: 2023-07
-        highlights:
+      # - name: Whisper to Normal Speech Style Conversion
+      #   start_date: 2023-06
+      #   end_date: 2023-07
+      #   highlights:
           # - Testsed VAE model with pre-trained vocoder(WaveGAN) to convert whisper audio to speech audio. Trained custom generative audio model(VITS) for style conversion from whisper to normal speech.
-          - 'Demo Link [https://yi-liu.top/demos/whisper-to-speech-voice-conversion/](https://yi-liu.top/demos/whisper-to-speech-voice-conversion/)'
+          # - 'Demo Link [https://yi-liu.top/demos/whisper-to-speech-voice-conversion/](https://yi-liu.top/demos/whisper-to-speech-voice-conversion/)'
       # - name: Riscv32 full-system emulator
       #   start_date: 2022-08
       #   end_date: 2023-01
