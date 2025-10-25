@@ -48,7 +48,7 @@ jobs:
       - run: rendercv render ./resume/industry_Yi_Liu_CV.yaml
       - name: Copy resume
         run: |
-          sudo cp ./resume/rendercv_output/Yi_Liu_CV.yaml ./build/assets/resume.pdf
+          sudo cp ./resume/rendercv_output/Yi_Liu_CV.pdf ./build/assets/resume.pdf
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
