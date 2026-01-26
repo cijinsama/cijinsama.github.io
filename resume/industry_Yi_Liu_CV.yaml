@@ -30,12 +30,12 @@ cv:
         start_date: 2025-10
         # end_date: 2025-08
         highlights:
-          - Realtime edge device image editing with Diffusion model. Collaborated with Qualcomm.
+          - Realtime video editing by flow matching. Collaborated with Qualcomm.
       - company: Bose Corporation
         position: Machine Learning Engineer, Intern
         location: Framingham, MA, US
         start_date: 2025-06
-        # end_date: 2025-08
+        end_date: 2025-12
         highlights:
           - Design model for real-time open vocabulary keyword spotting on edge device. Achieve better performance than SOTA model [SLICK](https://arxiv.org/abs/2409.09067) with smaller parameter size.
           - Identified limitations in existing evaluation dataset and developed a novel dataset using generative models to address coverage gaps and improve benchmarking robustness.
@@ -57,16 +57,16 @@ cv:
           # - Implement diffusion models for speech enhancement.
           # - Migrate algorithms to the mobile platform(Android and IOS) and reduce memory consumption.
     publications:
-      - title: Towards Controllable Symbolic Music Diffusion Models (under review)
-        authors:
-          - '***Yi Liu***'
-          - Jingyue Huang
-          - Zachary Novack
-        doi:
-        url:
-        journal: The 40th Annual AAAI Conference on Artificial Intelligence
+      # - title: Towards Controllable Symbolic Music Diffusion Models (submitting)
+      #   authors:
+      #     - '***Yi Liu***'
+      #     - Jingyue Huang
+      #     - Zachary Novack
+      #   doi:
+      #   url:
+      #   journal: The 27th International Society for Music Information Retrieval Conference
         # date: 2025-07
-      - title: 'No Word Left Behind: Mitigating Prefix Bias in Open-Vocabulary Keyword Spotting (under review)'
+      - title: 'No Word Left Behind: Mitigating Prefix Bias in Open-Vocabulary Keyword Spotting'
         authors:
           - '***Yi Liu***'
           - 'Chuan-Che (Jeff) Huang'
@@ -82,10 +82,14 @@ cv:
         details: Skilled in Pytorch, Tensorflow, XGBoost, some experience with MPI, ISPC, Eigen, ONNX.
       - label: Algorithms
         details: machine learning, speech/audio, NLP/LLM, Recommender Systems, DSP, numerical method.
-    projects:
+    Selected Projects:
+      - name: Realtime Video Editing with Flow Matching
+        start_date: 2025-09
+        highlights:
+          - Proposed methods to achieve realtime video editing based on Wan2.1
       - name: Open-Vocabulary Keyword Spotting
         start_date: 2025-06
-        # end_date: 2025-12
+        end_date: 2025-12
         highlights:
           # - Introduced the Partial Overlap Benchmark and identified partial-overlap phrases as a key failure mode in OV-KWS.
           # - Developed DisentangleKWS, improving robustness against prefix bias without adding computational overhead or impacting standard performance.
@@ -96,7 +100,7 @@ cv:
         #end_date: 2023-12
         #highlights:
           #- Finetune Llama3 8B model to play The Snake game.
-      - name: Diffusion Language Model for Symbolic Music Generation
+      - name: Diffusion Language Model for Controllable Symbolic Music Generation
         start_date: 2025-02
         end_date: 2025-06
         highlights:
@@ -124,8 +128,8 @@ cv:
       #   start_date: 2023-06
       #   end_date: 2023-07
       #   highlights:
-          # - Testsed VAE model with pre-trained vocoder(WaveGAN) to convert whisper audio to speech audio. Trained custom generative audio model(VITS) for style conversion from whisper to normal speech.
-          # - 'Demo Link [https://yi-liu.top/demos/whisper-to-speech-voice-conversion/](https://yi-liu.top/demos/whisper-to-speech-voice-conversion/)'
+      #     # - Testsed VAE model with pre-trained vocoder(WaveGAN) to convert whisper audio to speech audio. Trained custom generative audio model(VITS) for style conversion from whisper to normal speech.
+      #     - 'Demo Link [https://yi-liu.top/demos/whisper-to-speech-voice-conversion/](https://yi-liu.top/demos/whisper-to-speech-voice-conversion/)'
       # - name: Riscv32 full-system emulator
       #   start_date: 2022-08
       #   end_date: 2023-01
