@@ -39,7 +39,7 @@ cv:
         highlights:
           - Design model for real-time open vocabulary keyword spotting on edge device. Achieve better performance than SOTA model [SLICK](https://arxiv.org/abs/2409.09067) with smaller parameter size.
           - Identified limitations in existing evaluation dataset and developed a novel dataset using generative models to address coverage gaps and improve benchmarking robustness.
-          # - Work submitted to ICASSP 2026.
+          # - Work accepted to ICASSP 2026.
       # - company: La Jolla Institute for Immunology
       #   position: Student Researcher
       #   location: San Diego, CA, US
@@ -89,24 +89,24 @@ cv:
         # date: 2026-03
     technologies:
       - label: Languages
-        details: Skilled in Python, C, C++, capable in Unix shell scripts, CUDA, Java, Matlab, Mathematica.
+        details: Skilled in Python, C, C++, capable in Unix shell scripts, CUDA, Java, Matlab.
       - label: Frameworks
         details: Skilled in Pytorch, Tensorflow, XGBoost, some experience with MPI, ISPC, Eigen, ONNX.
       - label: Algorithms
-        details: machine learning, speech/audio, NLP/LLM, Recommender Systems, DSP, numerical method.
+        details: machine learning, speech/audio, NLP/LLM, diffusion model, DSP, numerical method.
     Selected Projects:
       # - name: Realtime Video Editing with Flow Matching
       #   start_date: 2025-09
       #   highlights:
       #     - Proposed methods to achieve realtime video editing based on Wan2.1
-      - name: Open-Vocabulary Keyword Spotting
-        start_date: 2025-06
-        end_date: 2025-12
-        highlights:
+      # - name: Open-Vocabulary Keyword Spotting
+      #   start_date: 2025-06
+      #   end_date: 2025-12
+      #   highlights:
           # - Introduced the Partial Overlap Benchmark and identified partial-overlap phrases as a key failure mode in OV-KWS.
           # - Developed DisentangleKWS, improving robustness against prefix bias without adding computational overhead or impacting standard performance.
           # - Paper currently under submitted to ICASSP-2026.
-          - 'Demo Link [https://yi-liu.top/demos/open-vocabulary-keywords-spotting/](https://yi-liu.top/demos/open-vocabulary-keywords-spotting/)'
+          # - 'Demo Link [https://yi-liu.top/demos/open-vocabulary-keywords-spotting/](https://yi-liu.top/demos/open-vocabulary-keywords-spotting/)'
       #- name: Large Language Model-Based Game Agent
         #start_date: 2024-11
         #end_date: 2023-12
@@ -136,12 +136,12 @@ cv:
         highlights:
           - Incorporate adversarial training with causal attention-based networks for real-time edge device application.
           - Participated in the 2024 ICASSP Audio Deep Packet Loss Concealment Challenge, ranked 8th.
-      # - name: Whisper to Normal Speech Style Conversion
-      #   start_date: 2023-06
-      #   end_date: 2023-07
-      #   highlights:
-      #     # - Testsed VAE model with pre-trained vocoder(WaveGAN) to convert whisper audio to speech audio. Trained custom generative audio model(VITS) for style conversion from whisper to normal speech.
-      #     - 'Demo Link [https://yi-liu.top/demos/whisper-to-speech-voice-conversion/](https://yi-liu.top/demos/whisper-to-speech-voice-conversion/)'
+      - name: Whisper to Normal Speech Style Conversion
+        start_date: 2023-06
+        end_date: 2023-07
+        highlights:
+          - Trained custom generative audio model(VITS) for style conversion from whisper to normal speech.
+          - 'Demo Link [https://yi-liu.top/demos/whisper-to-speech-voice-conversion/](https://yi-liu.top/demos/whisper-to-speech-voice-conversion/)'
       # - name: Riscv32 full-system emulator
       #   start_date: 2022-08
       #   end_date: 2023-01
