@@ -72,9 +72,21 @@ cv:
           - 'Chuan-Che (Jeff) Huang'
           - Xiao Quan
         doi:
-        url:
+        url: https://arxiv.org/abs/2602.08930
         journal: 2026 IEEE International Conference on Acoustics, Speech, and Signal Processing
         # date: 2025-09
+      - title: 'Curvature Matters: Mitigating Curvature-Induced Errors in Few-Step Facial Video Editing (Underreview)'
+        authors:
+          - '***Yi Liu***'
+          - Jianrong Chen
+          - Peng Liu
+          - Lei Wang
+          - Ning Bi
+          - Sujit Dey
+        doi:
+        url:
+        journal: The 19th European Conference on Computer Vision
+        # date: 2026-03
     technologies:
       - label: Languages
         details: Skilled in Python, C, C++, capable in Unix shell scripts, CUDA, Java, Matlab, Mathematica.
@@ -83,10 +95,10 @@ cv:
       - label: Algorithms
         details: machine learning, speech/audio, NLP/LLM, Recommender Systems, DSP, numerical method.
     Selected Projects:
-      - name: Realtime Video Editing with Flow Matching
-        start_date: 2025-09
-        highlights:
-          - Proposed methods to achieve realtime video editing based on Wan2.1
+      # - name: Realtime Video Editing with Flow Matching
+      #   start_date: 2025-09
+      #   highlights:
+      #     - Proposed methods to achieve realtime video editing based on Wan2.1
       - name: Open-Vocabulary Keyword Spotting
         start_date: 2025-06
         end_date: 2025-12
